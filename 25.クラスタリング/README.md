@@ -16,5 +16,7 @@ K平均ではできないような特徴があって面白い。
 
 SBTとProcessingを併用した。
 
+![スクリーンショット](screenshot.png)
+
 ## 参考
 - [Apache Commons公式](https://commons.apache.org/proper/commons-math/userguide/ml.html)
