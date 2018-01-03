@@ -2,9 +2,12 @@ Javaの昔からあるウェブ系技術を知らないなぁと思い、Servlet
 
 Scalaでサーブレットを書いたので、
 それをSBTでビルドし、Jettyに実行させる。
-`sbt ~jetty:start`とすれば8080ポートでアクセスできる。
+`sbt ~jetty:start`とすれば8080ポートでアクセスできる
 （この`~`を忘れると動かない。ハマった）。
-SBTが色々やってくれるので、Jettyを事前にインストールしておかなくて良い。
+SBTが色々やってくれるので、Jettyを事前にインストールしておかなくて良い。  
+また、gitでprojectディレクトリを無視させているため、
+本来projectなものを_projectとしてリポジトリ登録している。
+実行前にリネームしてね。  
 なお、テンプレートにはFreeMarkerを使った。
 
 昔からあるJava系技術にはよくあることだが、色々冗長で簡潔でない。
@@ -25,5 +28,8 @@ SBTが色々やってくれるので、Jettyを事前にインストールして
 というか、仕事ならともかく、学生はJava系サーバを避けるべきだと思う。
 どうしてもやるときは、IntelliJなどIDEの力を素直に借りるのが良さそう。
 
-## References
+
+
+## 参考
+- [SBTとJetty](https://github.com/earldouglas/xsbt-web-plugin/blob/master/docs/4.0.x.md)
 - [FreeMarker](http://freemarker.org/docs/pgui_quickstart_all.html)
