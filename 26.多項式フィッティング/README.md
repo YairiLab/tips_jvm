@@ -15,5 +15,7 @@ Apache Commonsで、曲線フィッティング。
 Processingと組み合わせれば、
 インタラクティブアートになるかもしれない。
 
+![スクリーンショット](screenshot.png)
+
 ## 参考
 - [Apache Commons公式](https://commons.apache.org/proper/commons-math/userguide/fitting.html)

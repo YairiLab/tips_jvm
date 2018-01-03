@@ -17,5 +17,7 @@ OGC(Open Geospatial Consortium)の標準に従っていて、
 パラメータがやたら細かい。
 このままだとイマイチなので、使いやすくなるようScalaでラップした。
 
+![スクリーンショット](screenshot.png)
+
 ## 参考
 - [JTSのJavadoc](http://www.vividsolutions.com/jts/javadoc/index.html)
